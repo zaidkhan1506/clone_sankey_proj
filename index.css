@@ -9,8 +9,9 @@ body{
 
 .box{
     display: flex;
+    flex-direction:row;
     align-items: center;
-    background-color: rgb(255, 255, 255);
+    /* background-color: rgb(255, 255, 255); */
     height: 100%;
     width: 100%;
 }
@@ -102,7 +103,7 @@ button{
 }
 @media screen and (max-width:650px){
     .box{
-        display: flex;
+        
         flex-direction: column;
     }
 }
